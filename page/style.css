@@ -25,6 +25,11 @@
     padding: 0;
 }
 
+body {
+    background-image: linear-gradient(125deg, var(--gray), var(--beige));
+
+}
+
 .navbar {
     width: 100%;
     height: 100px;
@@ -36,12 +41,12 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 
 li a {
     display: block;
-    color: #4f6d7a;
+    color: var(--beige);
     text-align: center;
     margin: 10px 30px;
     padding: 15px;
@@ -51,3 +56,21 @@ li a {
 li a:hover {
     background-color: #dd6e42;
 }
+
+.search-section {
+    width: 100%;
+    padding: 0;
+    align-content: center;
+}
+
+.search-box {
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid var(--gray);
+    border-radius: 25px;
+}
+
+
