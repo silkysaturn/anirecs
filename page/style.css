@@ -74,4 +74,9 @@ li a:hover {
     border-radius: 25px;
 }
 
-
+.title-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: 100px;
+    width: 100%;
+}
