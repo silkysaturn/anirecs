@@ -55,6 +55,7 @@ li a {
 
 li a:hover {
     background-color: #dd6e42;
+    border-radius: 25px;
 }
 
 .search-section {
@@ -70,7 +71,7 @@ li a:hover {
     height: 50px;
     margin: auto;
     padding: 10px;
-    border: 2px solid var(--beige);
+    border: 2px solid var(--gray);
     border-radius: 25px;
 }
 
